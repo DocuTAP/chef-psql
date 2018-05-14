@@ -15,9 +15,10 @@
 name             'psql'
 maintainer       'Peter Donald'
 maintainer_email 'peter@realityforge.org'
-license          'Apache 2.0'
+license          'Apache v2.0'
 description      'A set of LWRPs for interacting with postgres using the CLI.'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+source_url       'https://github.com/realityforge/chef-psql'
+supports         'ubuntu', '>= 14.04'
+chef_version     '>12'
 version          '0.3.2'
-
-# depends 'cutlery', '~> 0.1'
